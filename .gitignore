@@ -24,3 +24,4 @@
 /bats/bats.tar.gz
 /bats/logs/
 script_logs/
+resources/*.tgz
