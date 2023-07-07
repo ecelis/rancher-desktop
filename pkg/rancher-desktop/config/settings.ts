@@ -80,7 +80,7 @@ export const defaultSettings = {
       installed: { } as Record<string, string>,
     },
     pathManagementStrategy: process.platform === 'win32' ? PathManagementStrategy.Manual : PathManagementStrategy.RcFiles,
-    telemetry:              { enabled: true },
+    telemetry:              { enabled: false },
     /** Whether we should check for updates and apply them. */
     updater:                { enabled: false },
     autoStart:              false,
